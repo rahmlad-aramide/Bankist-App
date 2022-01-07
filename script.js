@@ -191,7 +191,7 @@ const startLogOutTimer = function () {
     time--;
   };
   // Set timer to an initial value
-  let time = 20;
+  let time = 6000;
   // call time every second
   tick();
   const timer = setInterval(tick, 1000);
